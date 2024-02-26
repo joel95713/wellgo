@@ -26,7 +26,7 @@
   <body>
     <header>
       <nav class="navbar navbar-expand-lg shadow d-grid justify-content-around">
-        <div class="container-fluid mx-5">
+        <div class="container-fluid">
           <a class="navbar-brand" href="#">
             <img
               src="images/wellgo+_-_logotipos__1_-removebg-preview.png"
@@ -100,10 +100,50 @@
           </div>
         </div>
       </section>
+      <section class="shadow py-3">
+        <div class="container">
+          <div class="row flex-column">
+            <div class="col mt-4">
+              <h4 class="fw-bolder">Categorias</h4>
+            </div>
+            <div class="col">
+              <div class="d-flex overflow-auto gap-3 gap-lg-5 py-4">
+                <!-- Adicionado gap-3 aqui -->
+                <img
+                  src="images/thumbnails_categories/1.png"
+                  alt="enfermagem"
+                  style="width: 50%"
+                  class="rounded-5 shadow"
+                />
+                <img
+                  src="images/thumbnails_categories/2.png"
+                  alt="medicina"
+                  style="width: 50%"
+                  class="rounded-5 shadow"
+                />
+                <img
+                  src="images/thumbnails_categories/4.png"
+                  alt="psicologia"
+                  style="width: 50%"
+                  class="rounded-5 shadow"
+                />
+                <img
+                  src="images/thumbnails_categories/5.png"
+                  alt="aux_saude"
+                  style="width: 50%"
+                  class="rounded-5 shadow"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section class="my-5">
         <div class="container text-center">
-          <div class="row align-items-center mt-5 g-5">
-            <div class="col ">
+          <div class="row align-items-center">
+            <h4 class="text-start fw-bolder">Destaques</h4>
+            <div class="col mt-4">
               <div class="card shadow">
                 <div
                   class="bg-image hover-overlay ripple"
@@ -144,13 +184,13 @@
                       <p class="text-muted">4.5 (413)</p>
                     </li>
                   </ul>
-                  <p class="mb-2">$ • Enfermagem Pediátrica</p>
+                  <p class="mb-2">€ • Enfermagem Pediátrica</p>
                   <p class="card-text">
                     Some quick example text to build on the card title and make
                     up the bulk of the card's content.
                   </p>
                   <hr class="my-4" />
-                  <p class="lead"><strong>Tonight's availability</strong></p>
+                  <p class="lead"><strong>Horários Livres (Hoje)</strong></p>
                   <ul
                     class="list-unstyled list-inline d-flex justify-content-between"
                   >
@@ -158,7 +198,9 @@
                       <div class="chip me-0">5:30PM</div>
                     </li>
                     <li class="list-inline-item me-0">
-                      <div class="chip bg-secondary text-white me-0">
+                      <div
+                        class="chip bg-secondary text-white me-0 px-2 py-1 rounded-3"
+                      >
                         7:30PM
                       </div>
                     </li>
@@ -170,19 +212,19 @@
                     </li>
                   </ul>
                   <a href="#!" class="btn btn-link link-secondary p-md-1 mb-0"
-                    >Button</a
+                    >Saber Mais</a
                   >
                 </div>
               </div>
             </div>
-            <div class="col ">
+            <div class="col">
               <div class="card shadow">
                 <div
                   class="bg-image hover-overlay ripple"
                   data-mdb-ripple-color="light"
                 >
                   <img
-                    src="https://mdbootstrap.com/img/Photos/Horizontal/Food/8-col/img (5).jpg"
+                    src="images/enfermeiro do trabalho.jpg"
                     class="img-fluid"
                   />
                   <a href="#!">
@@ -216,13 +258,13 @@
                       <p class="text-muted">4.5 (413)</p>
                     </li>
                   </ul>
-                  <p class="mb-2">$ • Enfermagem do Trabalho</p>
+                  <p class="mb-2">€ • Enfermagem do Trabalho</p>
                   <p class="card-text">
                     Some quick example text to build on the card title and make
                     up the bulk of the card's content.
                   </p>
                   <hr class="my-4" />
-                  <p class="lead"><strong>Tonight's availability</strong></p>
+                  <p class="lead"><strong>Horários Livres (Hoje) </strong></p>
                   <ul
                     class="list-unstyled list-inline d-flex justify-content-between"
                   >
@@ -230,7 +272,9 @@
                       <div class="chip me-0">5:30PM</div>
                     </li>
                     <li class="list-inline-item me-0">
-                      <div class="chip bg-secondary text-white me-0">
+                      <div
+                        class="chip bg-secondary text-white me-0 px-2 py-1 rounded-3"
+                      >
                         7:30PM
                       </div>
                     </li>
@@ -242,21 +286,18 @@
                     </li>
                   </ul>
                   <a href="#!" class="btn btn-link link-secondary p-md-1 mb-0"
-                    >Button</a
+                    >Saber Mais</a
                   >
                 </div>
               </div>
             </div>
-            <div class="col ">
+            <div class="col">
               <div class="card shadow">
                 <div
                   class="bg-image hover-overlay ripple"
                   data-mdb-ripple-color="light"
                 >
-                  <img
-                    src="https://mdbootstrap.com/img/Photos/Horizontal/Food/8-col/img (5).jpg"
-                    class="img-fluid"
-                  />
+                  <img src="images/medico_trabalho.jpg" class="img-fluid" />
                   <a href="#!">
                     <div
                       class="mask"
@@ -288,13 +329,13 @@
                       <p class="text-muted">4.5 (413)</p>
                     </li>
                   </ul>
-                  <p class="mb-2">$$ • Medicina do Trabalho</p>
+                  <p class="mb-2">€€ • Medicina do Trabalho</p>
                   <p class="card-text">
                     Some quick example text to build on the card title and make
                     up the bulk of the card's content.
                   </p>
                   <hr class="my-4" />
-                  <p class="lead"><strong>Tonight's availability</strong></p>
+                  <p class="lead"><strong>Horários Livres (Hoje)</strong></p>
                   <ul
                     class="list-unstyled list-inline d-flex justify-content-between"
                   >
@@ -302,7 +343,9 @@
                       <div class="chip me-0">5:30PM</div>
                     </li>
                     <li class="list-inline-item me-0">
-                      <div class="chip bg-secondary text-white me-0">
+                      <div
+                        class="chip bg-secondary text-white me-0 px-2 py-1 rounded-3"
+                      >
                         7:30PM
                       </div>
                     </li>
@@ -314,7 +357,7 @@
                     </li>
                   </ul>
                   <a href="#!" class="btn btn-link link-secondary p-md-1 mb-0"
-                    >Button</a
+                    >Saber Mais</a
                   >
                 </div>
               </div>
@@ -323,5 +366,106 @@
         </div>
       </section>
     </main>
+    <!-- Footer -->
+    <footer class="text-center text-white" style="background-color: rgb(0, 0, 0)">
+      <!-- Grid container -->
+      <div class="container">
+        <!-- Section: Links -->
+        <section class="mt-5">
+          <!-- Grid row-->
+          <div class="row text-center d-flex justify-content-center pt-5">
+            <!-- Grid column -->
+            <div class="col-md-2">
+              <h6 class="text-uppercase font-weight-bold">
+                <a href="#!" class="text-white text-decoration-none">Sobre nós</a>
+              </h6>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-2">
+              <h6 class="text-uppercase font-weight-bold">
+                <a href="#!" class="text-white text-decoration-none">Serviços</a>
+              </h6>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-2">
+              <h6 class="text-uppercase font-weight-bold">
+                <a href="#!" class="text-white text-decoration-none">Investidores</a>
+              </h6>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-2">
+              <h6 class="text-uppercase font-weight-bold">
+                <a href="#!" class="text-white text-decoration-none">Ajuda</a>
+              </h6>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-2">
+              <h6 class="text-uppercase font-weight-bold">
+                <a href="#!" class="text-white text-decoration-none">Contactos</a>
+              </h6>
+            </div>
+            <!-- Grid column -->
+          </div>
+          <!-- Grid row-->
+        </section>
+        <!-- Section: Links -->
+
+        <hr class="my-5" />
+
+        <!-- Section: Text -->
+        <section class="mb-5">
+          <div class="row d-flex justify-content-center">
+            <div class="col-lg-8">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+                distinctio earum repellat quaerat voluptatibus placeat nam,
+                commodi optio pariatur est quia magnam eum harum corrupti dicta,
+                aliquam sequi voluptate quas.
+              </p>
+            </div>
+          </div>
+        </section>
+        <!-- Section: Text -->
+
+        <!-- Section: Social -->
+        <section class="text-center mb-5">
+          <a href="" class="text-white me-4">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="" class="text-white me-4">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="" class="text-white me-4">
+            <i class="fab fa-google"></i>
+          </a>
+          <a href="" class="text-white me-4">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="" class="text-white me-4">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="" class="text-white me-4">
+            <i class="fab fa-github"></i>
+          </a>
+        </section>
+        <!-- Section: Social -->
+      </div>
+      <!-- Grid container -->
+
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+        © 2024 Copyright Joel Lopes
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
   </body>
 </html>
