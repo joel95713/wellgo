@@ -7,9 +7,4 @@ Cadastro de Profissionais: Profissionais de saúde podem se cadastrar facilmente
 Busca de Serviços: Clientes podem pesquisar uma variedade de serviços de saúde disponíveis na plataforma e encontrar profissionais que atendam às suas necessidades específicas.
 Agendamento Online: Uma vez que um cliente encontre o profissional de saúde adequado, eles podem agendar consultas e serviços diretamente através da plataforma, economizando tempo e esforço.
 Avaliações e Comentários: Os clientes têm a oportunidade de deixar avaliações e comentários sobre os serviços recebidos, ajudando outros usuários a tomar decisões informadas.
-Como Contribuir
-Se você é um profissional de saúde interessado em se juntar à comunidade WellGo ou um desenvolvedor disposto a contribuir para o aprimoramento da plataforma, aqui estão algumas maneiras de se envolver:
-
-Cadastro de Profissional: Se você é um profissional de saúde, registre-se na plataforma e comece a oferecer seus serviços aos clientes.
-Reporte de Problemas: Encontrou algum bug ou problema na plataforma? Por favor, relate-o em nosso sistema de rastreamento de problemas para que possamos corrigi-lo o mais rápido possível.
 Melhorias de Recursos: Tem ideias para novos recursos ou melhorias na experiência do usuário? Adoraríamos ouvir suas sugestões e colaborar para tornar o WellGo ainda melhor.
